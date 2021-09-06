@@ -28,3 +28,6 @@ An entity which supports all the operations generally available to other entitie
 ### First class function _[JS/TS, Dart, Kotlin, Scala, Swift, Rust]_
 + Treat function as first class citizen -> can be passed as an argument
 + The argument function can be a **ananymous function**
++ Use cases
+  - Callback
+  - Used along w/ collection operations such as map(), where(), and reduce(), etc
