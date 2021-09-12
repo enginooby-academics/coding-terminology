@@ -24,13 +24,14 @@ const a = name + "Bezos"; // OK
 
 # Data Structure
 ### Tuple _[Python, C#7]_
-+ Characteristics  
++ Characteristics:  
   - _**Immutable**_: size is fixed and elements can not be modified => less memory and iterate faster than list, array,
   - Can contain elements of _**different data types**_.
   - Operations: _**indexing**, **slicing**, **membership test**_.
-+ Use cases
++ Use cases:
   - Return multiple values from private and internal utility methods w/o define a new type (POCO class/interface...)
   - Asign multiple variables at the same time.
+  - Swap two variables w/o using additional temprory variable.
 
 
 
@@ -41,6 +42,6 @@ An entity which supports all the operations generally available to other entitie
 ### First class function _[JS/TS, Dart, Kotlin, Scala, Swift, Rust]_
 + Treat function as first class citizen -> can be passed as an argument
 + The argument function can be a _**ananymous function**_
-+ Use cases
++ Use cases:
   - Callback
   - Used along w/ collection operations such as map(), where(), and reduce(), etc
