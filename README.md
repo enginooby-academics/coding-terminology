@@ -8,19 +8,41 @@ const jeff = {name: 'Jeff', age: 18, gender: 'male'};
 const user: User = jeff; // OK
 ```
 
-### Statically typed _[C/C++, C#, Java, Kotlin, TS, Scala, Rust, Go]_
-+ Variable types are _**determined at compile time**_, either by type annotation or type inference
+<a name="statically-typed"></a>      
+### Statically typed _[C/C++, C#, Java, Kotlin, TypeScript, Scala, Rust, Go, Pascal, FORTRAN]_
+> Types are _**determined at compile time**_ 
++ Require to declare data w/ type annotation or type inference
 ```csharp
 string name = "Jeff";  // type annotation
 var name = "Jeff"; // type inference
 ```
 
-+ Determine _**allowed operations**_ on the variables
++ Disallow to re-assign variable w/ different types
 ```csharp
-const a = name / 3; // Compile error
-const a = name + "Bezos"; // OK
+string name = 3; // ⛔ Compile error 
+string name = "John"; // ✅ OK
 ```
 
+🌗 Opposite: [Dynamically typed](#dynamically-typed)
+
+<a name="dynamically-typed"></a>      
+### Dynamically typed _[JavaScript, Objective-C, PHP, Python, Ruby, Lisp]_
+> Types are _**determined at runtime**_ 
++ Don't require to declare data types
+```js
+name = "Jeff"
+```
+
++ Allow to re-assign variable w/ different types
+```js
+name = 3; // ✅ OK
+```
+🌗 Opposite: [Statically typed](#statically-typed)
+
+
+### Strongly typed
+
+### Weekly typed
 
 # Data Structure
 ### Tuple _[Python, C#7]_
